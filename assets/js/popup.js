@@ -1,4 +1,4 @@
-$("body").mouseout(function(event){
+$(document).ready(function(event){
     function loadPopup(event){
           if($("#popup-overlay").hasClass("popup-hide")){
               $("#popup-overlay").removeClass("popup-hide");
@@ -6,7 +6,7 @@ $("body").mouseout(function(event){
               $("#popup-overlay").addClass("popup-show");
           }
     }
-     setTimeout(loadPopup, 3);
+     setTimeout(loadPopup, 1000);
         
       $("#close").click(function(e){
           $('#popup-overlay').addClass("popup-hide");
