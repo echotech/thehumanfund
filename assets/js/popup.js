@@ -6,7 +6,7 @@ $(document).ready(function(event){
               $("#popup-overlay").addClass("popup-show");
           }
     }
-     setTimeout(loadPopup, 1000);
+     setTimeout(loadPopup, 15000);
         
       $("#close").click(function(e){
           $('#popup-overlay').addClass("popup-hide");
