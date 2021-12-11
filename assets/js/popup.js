@@ -1,4 +1,4 @@
-$(body).mouseout(function(event){
+$("body").mouseout(function(event){
     function loadPopup(event){
           if($("#popup-overlay").hasClass("popup-hide")){
               $("#popup-overlay").removeClass("popup-hide");
